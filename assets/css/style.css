@@ -153,7 +153,9 @@ img { max-width: 100%; }
 .slider-1-box img { display: none; }
 .slider-1-box img.slider-1-img-active { display: inline; }
 
-.slider-1-nav { margin-top: 30px; }
+.slider-1-nav { margin-top: 30px;
+border:solid red 2px;
+height:50px; }
 
 .slider-1-nav span {
 	display: inline-block;
@@ -539,4 +541,9 @@ footer {
     text-align: lect;
 }
 
-
+#process{
+	float:left
+}
+#processcontainer{
+	margin-top:3%;
+}
